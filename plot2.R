@@ -39,10 +39,6 @@ names(mydata) <- mycolnames
 #create a new column with date and time as POSIXct format
 mydata$newdate <- with(mydata, as.POSIXct(paste(Date, Time), format="%d/%m/%Y %H:%M:%S"))
 
-
-#mydata$Date <- as.Date(mydata$Date , "%d/%m/%Y")
-
-#and times to be time
 #_______________________________________________________________________
 
 ##CREATE EXPLORATORY CHART
